@@ -1,0 +1,27 @@
+# Gradle / build output
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local machine config (SDK path, never secrets)
+local.properties
+
+# Secrets and per-developer config: never committed
+google-services.json
+*.jks
+*.keystore
+keystore.properties
+.env
